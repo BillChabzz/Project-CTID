@@ -28,6 +28,9 @@ header  ul li a{
     text-decoration: none;
 }
 footer{
+    height: 200px;
+    text-align: center;
+    color: #fff;
     background: #263238;
     margin-bottom: 0;
 }
