@@ -1,23 +1,56 @@
 body{
     height: 100%;
+    background: #e5e5e5;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 header{
     height: 10vh;
-    background: #2C3E50
+    background: #fff;
+    border-bottom: 1px solid #000;
 }
 section{
     height: 90vh;
-    background: #34495E
+    text-align: center;
 }
 ul{
     list-style: none;
-
+    margin-top: 15%;
 }
-ul li{
+header ul li{
+    font-size: 1.13em;
     display: inline-block;
     margin: 10px;
+    color: aliceblue;
+}
+header ul li a{
+    text-decoration: none;
+}
+header ul>li:nth-child(1){
+    color: #fff;
+
+}
+header ul >li:nth-child(2){
+
 }
 section.first{
     height: 100vh;
-    background: #2980b9;
+}
+/*---------------------------------------------/
+                    CLASSES STYLES
+/--------------------------------------------*/
+
+/*---------------------------------------------/
+                    ID STYLES
+/--------------------------------------------*/
+#intro p {
+    font-size: 2em;
+    margin-top: 5%;
+}
+.btn.mdm {
+    color: #fff;
+    margin-top: 5%;
+    padding: 1% 5%;
+    background: green;
+}
+
 }
