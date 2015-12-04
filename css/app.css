@@ -33,7 +33,7 @@ header  ul li a{
     text-decoration: none;
 }
 footer{
-    height: 200px;
+    height: auto;
     text-align: center;
     color: #fff;
     background: #263238;
@@ -67,7 +67,12 @@ section.first {
     padding-bottom: 21.5%;
 }
 .row.works {
-	padding: 8% 0;
+	padding: 10% 0;
+}
+.row.foot{
+    padding: 3% 0;
+    font-weight: 100;
+
 }
 .btn.mdm {
 
@@ -86,6 +91,26 @@ section.first {
     padding: 0 30px;
     display: inline-block;
     margin:5% 6%;
+}
+ul.info {
+	list-style: none;
+}
+.info li{
+    padding: 1% 0;
+}
+ul.connect{
+    list-style: none;
+}
+.connect li{
+    padding: 1% 0;
+}
+ul.social{
+    list-style: none;
+}
+.social li{
+
+    display: inline-block;
+    padding: 0.5% 2%;
 }
 /*---------------------------------------------/
                     ID STYLES
