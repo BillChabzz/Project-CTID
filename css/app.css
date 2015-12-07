@@ -117,8 +117,9 @@ ul.social{
 .port {
 	text-align: center;
     border: 1px solid grey;
-    padding: 20px;
-    margin: 10px;
+    padding: 50px;
+    margin: 5px 0px;
+
 }
 .port ul{
     list-style: none;
@@ -132,6 +133,14 @@ ul.social{
 .post {
 	height: 50px;
     background: #263238 ;
+}
+.post > a{
+
+    padding-top: 10px;
+}
+a.btn.postjob {
+
+	color: #fff;
 }
 /*---------------------------------------------/
                     ID STYLES
