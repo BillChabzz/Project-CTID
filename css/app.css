@@ -112,6 +112,16 @@ ul.social{
     display: inline-block;
     padding: 0.5% 2%;
 }
+.port {
+	text-align: center;
+    border: 1px solid grey;
+    padding: 20px;
+    margin: 10px;
+}
+.port ul{
+    list-style: none;
+    margin: 20px;
+}
 /*---------------------------------------------/
                     ID STYLES
 /--------------------------------------------*/
