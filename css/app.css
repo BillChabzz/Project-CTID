@@ -4,6 +4,9 @@ body{
     background: #e5e5e5;
     font-family: 'Open Sans Condensed', sans-serif;
 }
+ul{
+    list-style: none;
+}
 header{
     width: 100%;
     height: 100px;
@@ -50,13 +53,12 @@ header ul >li:nth-child(2){
 header img{
     margin-top:10%;
 }
-section.first{
 
-}
 
 /*---------------------------------------------/
                     CLASSES STYLES
 /--------------------------------------------*/
+
 section.first {
     text-align: center;
 	background: #fff;
@@ -121,6 +123,15 @@ ul.social{
 .port ul{
     list-style: none;
     margin: 20px;
+}
+.btn.view {
+    border: 1px solid grey;
+	padding: 15px ;
+    color: green;
+}
+.post {
+	height: 50px;
+    background: #263238 ;
 }
 /*---------------------------------------------/
                     ID STYLES
