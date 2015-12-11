@@ -4,6 +4,13 @@ body{
     background: #e5e5e5;
     font-family: 'Open Sans Condensed', sans-serif;
 }
+ul{
+    list-style: none;
+}
+span{
+    color: aliceblue;
+    font-size: 1.5em;
+}
 header{
     width: 100%;
     height: 100px;
@@ -11,7 +18,6 @@ header{
     border-bottom: 1px solid #000;
 }
 section#intro{
-
     text-align: center;
     background-image: url(http://arsen-s.com/identity/images/slide4.png.pagespeed.ce.JOYstOlxXR.png);
     background-size: cover;
@@ -20,7 +26,7 @@ section#intro{
 }
 header ul{
     list-style: none;
-    margin-top: 15%;
+    margin-top: 40px;
 }
 header ul li{
     font-size: 1.13em;
@@ -50,13 +56,12 @@ header ul >li:nth-child(2){
 header img{
     margin-top:10%;
 }
-section.first{
 
-}
 
 /*---------------------------------------------/
                     CLASSES STYLES
 /--------------------------------------------*/
+
 section.first {
     text-align: center;
 	background: #fff;
@@ -66,8 +71,18 @@ section.first {
 	padding-top: 10%;
     padding-bottom: 21.5%;
 }
+/*.row.hero ,#txt p{
+    color: aliceblue;
+    font-size: 1.5em;
+}*/
 .row.works {
 	padding: 10% 0;
+}
+.row.works span{
+    color: #000;
+}
+.row.works p{
+    font-size: 1.3em;
 }
 .row.foot{
     padding: 3% 0;
@@ -75,7 +90,7 @@ section.first {
 
 }
 .btn.mdm {
-
+    border: 1px solid green;
     border-radius: 3px;
     font-size: 1.8em;
     font-weight: 500;
@@ -83,6 +98,15 @@ section.first {
     margin-top: 10%;
     padding: 1% 10%;
     background: green;
+    transition: all .4s ease;
+
+}
+
+.btn.mdm:hover{
+    background: transparent;
+    border-color: green;
+    color: green;
+
 }
 .first ul{
     list-style: none;
@@ -112,6 +136,41 @@ ul.social{
     display: inline-block;
     padding: 0.5% 2%;
 }
+.port {
+	text-align: center;
+
+    padding: 50px;
+    margin: 5px 0px;
+
+}
+.port ul{
+    list-style: none;
+    margin: 20px;
+}
+.btn.view {
+    border: 1px solid grey;
+	padding: 15px ;
+    color: green;
+}
+.bio {
+	margin-bottom: 30px;
+}
+
+.post {
+    padding-top: 10px;
+	height: 50px;
+    background: #263238 ;
+}
+.post a:hover{
+
+}
+a.btn.postjob {
+
+	color: #fff;
+}
+a.btn.postjob:hover{
+    color: greenyellow;
+}
 /*---------------------------------------------/
                     ID STYLES
 /--------------------------------------------*/
@@ -119,6 +178,8 @@ ul.social{
     font-size: 2em;
     margin-top: 5%;
 }
-
+#txt {
+	color: aliceblue;
+}
 
 
