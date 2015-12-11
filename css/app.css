@@ -18,7 +18,6 @@ header{
     border-bottom: 1px solid #000;
 }
 section#intro{
-
     text-align: center;
     background-image: url(http://arsen-s.com/identity/images/slide4.png.pagespeed.ce.JOYstOlxXR.png);
     background-size: cover;
@@ -27,7 +26,7 @@ section#intro{
 }
 header ul{
     list-style: none;
-    margin-top: 15%;
+    margin-top: 40px;
 }
 header ul li{
     font-size: 1.13em;
@@ -153,17 +152,24 @@ ul.social{
 	padding: 15px ;
     color: green;
 }
+.bio {
+	margin-bottom: 30px;
+}
+
 .post {
+    padding-top: 10px;
 	height: 50px;
     background: #263238 ;
 }
-.post > a{
+.post a:hover{
 
-    padding-top: 10px;
 }
 a.btn.postjob {
 
 	color: #fff;
+}
+a.btn.postjob:hover{
+    color: greenyellow;
 }
 /*---------------------------------------------/
                     ID STYLES
