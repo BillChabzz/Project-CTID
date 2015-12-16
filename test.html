@@ -5,10 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Foundation | Welcome</title>
 <link rel="stylesheet" href="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+    <link rel="stylesheet"
 </head>
 <body>
 
-<div class="top-bar">
+<!--<div class="top-bar">
 <div class="row">
 <div class="top-bar-left">
 <ul class="dropdown menu" data-dropdown-menu>
@@ -49,9 +50,29 @@
 </nav>
 </div>
 
+</div>-->
+
+
+<div class="menu-collapsed">
+  <div class="bar"></div>
+<nav>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Clients</a></li>
+    <li><a href="#">Contact Us</a></li>
+  </ul>
+</nav>
 </div>
+<h1>Lorem Ipsum</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis sunt mollitia molestiae maxime, voluptatibus, voluptas placeat minima natus temporibus culpa repudiandae! Nam porro molestiae possimus, laboriosam, vero tenetur consequatur voluptatibus?</p>
 <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 <script src="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script type="text/javascript">
+        $(".menu-collapsed").click(function() {
+  $(this).toggleClass("menu-expanded");
+});
+    </script>
 <script>
       $(document).foundation();
     </script>
