@@ -17,6 +17,9 @@ header{
     background-color: transparent;
    /* border-bottom: 1px solid #000;*/
 }
+section{
+    display: block;
+}
 section#intro{
     padding-top: 50px;
     text-align: center;
@@ -38,8 +41,12 @@ header ul li{
     color: aliceblue;
 }
 header  ul li a{
-    color: green;
+    font-size: 25px;
+    color: #fff;
     text-decoration: none;
+}
+header ul li a:hover{
+    color: #64dd17;
 }
 footer{
     height: auto;
@@ -64,7 +71,10 @@ header img{
 /*---------------------------------------------/
                     CLASSES STYLES
 /--------------------------------------------*/
-
+.content-overlayed{
+    z-index: 9999;
+    height: 100vh;
+}
 section.first {
     text-align: center;
 	background: #fff;
