@@ -16,10 +16,11 @@
 
       <!----------END----------->
     <!--<link rel="stylesheet" href="css/foundation.css" />-->
-    <link rel="stylesheet" href="css/app.css" />
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
       <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&subset=latin,greek' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/vegas.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/app.css" />
 </head>
 <body>
    <section id="example">
@@ -43,6 +44,7 @@
 
           <div class="row hero">
             <div class="col-md-12">
+                <div class="element"></div>
                 <p id="txt"><span class="green">We connect <b>developers</b> and <b>employers</b>.<!--<br>Search for developers and build your company! We give them to you</span> <br>based on merit.</p>-->
                <!-- <p id="txt">Browse portfolios and job seekers</p>-->
                 <!--<a class="btn mdm sec" href="#">Get started</a>-->
@@ -137,7 +139,7 @@
       </footer>
 
 <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-       
+       <script src="js/typed.min.js"></script>
        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 <!--<script src="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>-->
 <script src="js/vegas.min.js"></script>
@@ -152,6 +154,14 @@
 });
 
     </script>
+       <script>
+  $(function(){
+      $(".element").typed({
+        strings: ["First sentence.", "Second sentence."],
+        typeSpeed: 0
+      });
+  });
+</script>
 <!--<script>
       $(document).foundation();
     </script>-->
