@@ -3,9 +3,10 @@
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Foundation | Welcome</title>
+<title>Vegas</title>
 <link rel="stylesheet" href="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
-    <link rel="stylesheet" href="css/test.css">
+    <!--<link rel="stylesheet" href="css/test.css">-->
+    <link rel="stylesheet" href="css/vegas.min.css">
 </head>
 <body>
 
@@ -52,7 +53,7 @@
 
 </div>-->
 
-
+<!--
 <div class="container">
   <h1>Top right corner, click it!</h1>
   <p>View type 2 <a href="http://codepen.io/PaulVanO/pen/GgGeyE" target="_blank">here</a></p>
@@ -73,15 +74,29 @@
       <li><a href="#">Contact</a></li>
     </ul>
   </nav>
-</div>
+</div>-->
+    
+    <section id="example"></section>
 <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 <script src="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script src="js/vegas.min.js"></script>
     <script type="text/javascript">
        $('#toggle').click(function() {
    $(this).toggleClass('active');
    $('#overlay').toggleClass('open');
 
   });
+    </script>
+    <script>
+    $("#example, body").vegas({
+    slides: [
+        { src: "/img/vegasimgs/Hulk.jpg" },
+        { src: "/img/vegasimgs/ship.jpg" },
+        { src: "/img/vegasimgs/yamaha.jpg" },
+        { src: "/img/vegasimgs/storm.jpg" }
+    ]
+});
+
     </script>
 <script>
       $(document).foundation();

@@ -4,21 +4,35 @@
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Foundation | Welcome</title>
-<link rel="stylesheet" href="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
-    <link rel="stylesheet" href="css/app.css">
+ <!--Boootstrap CDN links-->
+      <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+      <!----------END----------->
+    <!--<link rel="stylesheet" href="css/foundation.css" />-->
+    <link rel="stylesheet" href="css/app.css" />
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+      <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&subset=latin,greek' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/vegas.min.css">
 </head>
 <body>
    <section id="example">
         <div class="content-overlayed">
+            <div class="container">
             <header>
           <div class="row">
               <!--Image-->
-              <div class="large-2 medium-4 small-12 columns">
+              <div class="col-md-3">
                 <img src="img/devBox-logo.png" height="80" width ="80">
               </div>
               <!--Links-->
-              <div class="large-4 medium-6 small-12 columns large-push-2">
+              <div class="col-md-9">
                 <ul>
                     <li><a href="#"><i class="fa fa-user-plus fa-1x"></i> &nbsp;Sign up</a></li>
                     <li><a href="#"><i class="fa fa-sign-in fa-1x"></i> &nbsp;Login</a></li>
@@ -28,7 +42,7 @@
       </header><!--end of header-->
 
           <div class="row hero">
-            <div class="large-12 small-12 medium-12  columns">
+            <div class="col-md-12">
                 <p id="txt"><span class="green">We connect <b>developers</b> and <b>employers</b>.<!--<br>Search for developers and build your company! We give them to you</span> <br>based on merit.</p>-->
                <!-- <p id="txt">Browse portfolios and job seekers</p>-->
                 <!--<a class="btn mdm sec" href="#">Get started</a>-->
@@ -37,24 +51,35 @@
                     </div>
               </div>
           </div>
+         </div><!--container-->
         </div>
-    </section><br>
+    </section>
+       <section class="partners">
+         <ul>
+            <li>MPolice</li>
+            <li>Rhapsody</li>
+            <li>Dishi</li>
+            <li>Mtindo</li>
+           </ul>
+       </section>
+       
        <section class="first">
+           <div class="container">
               <div class="row works">
-                  <div class="large-12 small-12 medium-12 columns">
-                      
+                  <div class="col-md-12">
+
                 <h2>How it works</h2>
                       <p>Get the people you need fast.</p>
                       <div class="row">
-                        <div class="large-4 columns">
+                        <div class="col-md-4">
                             <span>Search</span><br> <img src="img/analys64.png"/><br>
                             <p>Search for developers. </p>
                         </div>
-                        <div class="large-4 columns">
+                        <div class="col-md-4">
                           <span>Connect</span><br><img src="img/stick%20man161-64.png"/><br>
                             <p>Connect with developers by viewing their profiles.</p>
                         </div>
-                        <div class="large-4 columns">
+                        <div class="col-md-4">
                           <span>Develop</span><br><img src="img/develop64.png"/><br>
                             <p>Start developing your amazing products.</p>
                         </div>
@@ -75,24 +100,60 @@
                        <a class="btn mdm sec" href="#">Create account</a>
                     </div>
           </div>
+               </div>
           </section>
+       <footer>
+        <div class="container">   
+        <div class="row foot">
+            <div class="col-md-12">
+                <div class="col-md-6">
+                    <h4>COMPANY INFO</h4>
+                        <ul class="info">
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Terms of service</a></li>
+                            <li><a href="#">Privacy and Policy</a></li>
+                        </ul>
+                </div>
+                <div class="col-md-6">
+                    <h4>CONNECT WITH US</h4>
+                        <ul class="connect">
+                            <li><a href="#">Contact support</a></li>
+                            <li><a href="#">Help</a></li>
+                            <li><a href="#">FAQ</a></li>
+                        </ul>
+                </div>
+                <div class="col-md-12">
+                    <h4>Social reach</h4>
+                        <ul class="social">
+                            <li><a href="#"><img src="img/social/googleplus.png"/></a></li>
+                            <li><a href="#"><img src="img/social/facebook.png"/></a></li>
+                            <li><a href="#"><img src="img/social/twitter.png"/></a></li>
+                        </ul>
+                </div>
+            </div>
+
+        </div>
+        </div>
+      </footer>
 
 <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-<script src="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
-<script src="js/vegas.min.js"></script>    
+       
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+<!--<script src="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>-->
+<script src="js/vegas.min.js"></script>
 <script>
     $("#example, body").vegas({
     slides: [
-        { src: "/img/vegasimgs/Hulk.jpg" },
-        { src: "/img/vegasimgs/ship.jpg" },
-        { src: "/img/vegasimgs/yamaha.jpg" },
-        { src: "/img/vegasimgs/storm.jpg" }
+        { src: "/img/vegasimgs/bg-slide1.jpg" },
+        { src: "/img/vegasimgs/hero.jpg" },
+        { src: "/img/vegasimgs/bg-slide2.jpg" },
+        { src: "/img/vegasimgs/Hulk.jpg" }
     ]
 });
-    
+
     </script>
-<script>
+<!--<script>
       $(document).foundation();
-    </script>
+    </script>-->
 </body>
 </html>

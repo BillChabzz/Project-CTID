@@ -75,12 +75,26 @@ header img{
     z-index: 9999;
     height: 100vh;
 }
+.partners{
+    font-size: 2em;
+    padding: 3%;
+    text-align: center;
+    height:90px ;
+    background: #fff;
+    border-bottom: 1px solid grey;
+}
+.partners ul li{
+    display: inline-block;
+    padding: 0 5% ;
+    
+}
 section.first {
     text-align: center;
 	background: #fff;
 
 }
 .row.hero {
+    text-align: center;
     font-size: 1.3em;
 	padding-top: 12%;
     padding-bottom: 21.5%;
@@ -103,6 +117,7 @@ section.first {
     font-size: 1.3em;
 }
 .row.foot{
+    font-size: 20px;
     padding: 3% 0;
     font-weight: 100;
 
